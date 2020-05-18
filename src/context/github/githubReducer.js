@@ -1,10 +1,9 @@
 import {
   SEARCH_USERS,
-  GET_USERS,
+  GET_USER,
   CLEAR_USERS,
   SET_LOADING,
-  SET_ALERT,
-  REMOVE_ALERT,
+  GET_REPOS,
 } from '../types'
 
 export default (state, action) => {
@@ -15,10 +14,16 @@ export default (state, action) => {
         ...state,
         loading: true,
       }
+    case GET_REPOS:
+      return {
+        ...state,
+        repos: action.payload,
+        loading: false,
+      }
     case GET_USER:
       return {
         ...state,
-        users: action.payload,
+        user: action.payload,
         loading: false,
       }
     case SEARCH_USERS:
