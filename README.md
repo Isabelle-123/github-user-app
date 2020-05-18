@@ -1,10 +1,10 @@
 # Github user finder
 
-An app to search users on Github. It search by username, name and profile text. Click on a user to see repos, if the person is hireable and much more.
+An app to search users on Github. It search by username, name and profile text. Click on a user to see repos, if the user is hireable and much more.
 
 ## 👨‍💻 Tech stack
 
-- React (Functional components, Hooks, Context, useReducer)
+- React (Functional components, Hooks, Context, useReducer, Router)
 - CSS
 
 ## 🧪 Testing
