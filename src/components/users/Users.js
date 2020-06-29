@@ -1,18 +1,14 @@
-import React, { Component } from 'react'
+import React from 'react'
 import UserItem from './UserItem'
+import Spinner from '../layout/Spinner'
 
-export class Users extends Component {
-  state = {
-    users: [
-      { id: 'id', login: 'login', avatar_url: 'url', html_url: 'htmlurl' },
-      { id: 'id', login: 'login', avatar_url: 'url', html_url: 'htmlurl' },
-      { id: 'id', login: 'login', avatar_url: 'url', html_url: 'htmlurl' },
-    ],
-  }
-  render() {
+const Users = ({ users, loading }) => {
+  if (loading) {
+    return <Spinner />
+  } else {
     return (
       <div style={userStyle}>
-        {this.state.users.map((user) => (
+        {users.map((user) => (
           <UserItem key={user.id} user={user} />
         ))}
       </div>
