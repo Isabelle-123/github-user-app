@@ -1,5 +1,6 @@
 # Github user finder
 
+UNDER CONSTRUCTION!
 An app to search users on Github. It search by username, name and profile text. Click on a user to see repos, if the user is hireable, how many followers it has and much more.
 
 ## 👨‍💻 Tech stack
