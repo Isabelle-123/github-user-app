@@ -8,7 +8,7 @@ An app to search users on Github. It search by username, name and profile text. 
 - React (Functional components, Hooks, Context, useReducer, Router)
 - CSS
 
-## 🧪 Testing
+## 🧪 Try it
 
 Clone it, do a npm install and then npm start
 
