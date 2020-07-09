@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
 import Spinner from '../layout/Spinner'
-import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 // import Repos from '../repos/Repos'
 
 class User extends Component {
   componentDidMount() {
     this.props.getUser(this.props.match.params.login)
-    // this.props.getUserRepos(this.props.match.params.login)
+    this.props.getUserRepos(this.props.match.params.login)
   }
 
   render() {
