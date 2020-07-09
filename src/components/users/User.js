@@ -3,7 +3,7 @@ import Spinner from '../layout/Spinner'
 import { Link } from 'react-router-dom'
 import Repos from '../repos/Repos'
 
-const User = ({ getUser, getUserRepos, match, loading, repos }) => {
+const User = ({ user, getUser, getUserRepos, match, loading, repos }) => {
   useEffect(() => {
     getUser(match.params.login)
     getUserRepos(match.params.login)
@@ -24,7 +24,7 @@ const User = ({ getUser, getUserRepos, match, loading, repos }) => {
     public_repos,
     public_gists,
     hireable,
-  } = this.props.user
+  } = user
 
   if (loading) return <Spinner />
 
