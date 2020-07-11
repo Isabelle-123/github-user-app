@@ -9,6 +9,7 @@ import {
   SET_LOADING,
   GET_REPOS,
 } from '../types'
+import githubContext from './Githubcontext'
 
 const GithubState = (props) => {
   const initialState = {
@@ -19,4 +20,19 @@ const GithubState = (props) => {
   }
 
   const [state, dispatch] = useReducer(GithubReducer, initialState)
+
+  return (
+    <githubContext.Provider
+      value={{
+        users: state.users,
+        user: state.user,
+        repos: state.repos,
+        loading: state.loading,
+      }}
+    >
+      {props.children}
+    </githubContext.Provider>
+  )
 }
+
+export default GithubState
