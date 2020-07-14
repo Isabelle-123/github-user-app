@@ -33,7 +33,7 @@ const GithubState = (props) => {
     const res = await axios.get(
       `https://api.github.com/users/${username}?client_id=${process.env.REACT_APP_GITHUB_CLIENT_ID}&client_secret=${process.env.REACT_APP_GITHUB_CLIENT_ID}`
     )
-    dispatch({ type: GET_USER, payload: res.data.items })
+    dispatch({ type: GET_USER, payload: res.data })
   }
 
   const getUserRepos = async (username) => {

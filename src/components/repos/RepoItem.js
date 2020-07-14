@@ -1,15 +1,10 @@
-import React, { useContext } from 'react'
-import GithubContext from '../../context/github/githubContext'
+import React from 'react'
 
-const RepoItem = () => {
-  const githubContext = useContext(GithubContext)
-
-  const { repo } = githubContext
-
+function RepoItem({ repo }) {
   return (
     <div className='card'>
       <h3>
-        <a href={repo.html_url}>{repo.name}</a>
+        <a href={RepoItem.html_url}>{repo.name}</a>
       </h3>
     </div>
   )
