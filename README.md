@@ -1,18 +1,21 @@
 # Github user finder
 
-UNDER CONSTRUCTION!
-An app to search users on Github. It search by username, name and profile text. Click on a user to see repos, if the user is hireable, how many followers it has and much more.
+An app to search users on Github. It search by username, name and profile text. Click on a user to see repos, to go to the user github page, to see if the user is hireable, how many followers it has and much more.
+
+Please visit it at https://githubuserfinder-123.netlify.app/
 
 ## 👨‍💻 Tech stack
 
+The "master" branch is written with functional components. The "withContext" branch is refactored to use context and useReducer.
+
 - React (Functional components, Hooks, Context, useReducer, Router)
 - CSS
+- Netlify
 
 ## 🧪 Try it
 
 Clone it, do a npm install and then npm start
-
-It will run the app in the development mode.<br />
-Open [http://localhost:3002](http://localhost:3002) to view it in the browser.
+<br />
+Open [http://localhost:3003](http://localhost:3003) to view it in the browser.
 
 The page will reload if you make edits.<br />
