@@ -2,6 +2,8 @@
 
 An app to search users on Github. It search by username, name and profile text. Click on a user to see repos, to go to the user github page, to see if the user is hireable, how many followers it has and much more.
 
+The app is made by following the online course: https://www.udemy.com/course/modern-react-front-to-back/
+
 Please visit it at https://githubuserfinder-123.netlify.app/
 
 ## 👨‍💻 Tech stack
