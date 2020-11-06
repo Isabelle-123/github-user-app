@@ -4,8 +4,6 @@ An app to search users on Github. It search by username, name and profile text. 
 
 Please visit it at https://githubuserfinder-123.netlify.app/
 
-The app is made by following the online course: https://www.udemy.com/course/modern-react-front-to-back/
-
 ## 👨‍💻 Tech stack
 
 The "master" branch is written with functional components. The "withContext" branch is refactored to use context and useReducer.
@@ -16,8 +14,6 @@ The "master" branch is written with functional components. The "withContext" bra
 
 ## 🧪 Try it
 
-Clone it, do a npm install and then npm start
+Clone it, do a npm install, add your own github credentials and then run npm start
 <br />
 Open [http://localhost:3003](http://localhost:3003) to view it in the browser.
-
-The page will reload if you make edits.<br />
