@@ -2,7 +2,7 @@
 
 /* Global Styles */
 :root {
-  --primary-color: #8d2064;
+  --primary-color: rgb(128, 0, 79);
   --dark-color: #333333;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
