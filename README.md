@@ -6,11 +6,11 @@ Please visit it at https://githubuserfinder-123.netlify.app/
 
 ## 👨‍💻 Tech stack
 
-The "master" branch is written with functional components. The "withContext" branch is refactored to use context and useReducer.
-
-- React (Functional components, Hooks, Context, useReducer, Router)
+- React (functional components, Context, useReducer, Router)
+- Redux (dispatch)
 - CSS
 - Netlify
+- The branch "madeWithHooks" is written with functional components (no context, useReducer or redux)
 
 ## 🧪 Try it
 
