@@ -10,9 +10,7 @@ An app to search users on Github. It search by username, name and profile text. 
 
 ## 🧪 Try it
 
-Clone it, do a npm install and then npm start
+Clone it, do a npm install, add your github credentials and then npm start.
 
 It will run the app in the development mode.<br />
 Open [http://localhost:3002](http://localhost:3002) to view it in the browser.
-
-The page will reload if you make edits.<br />
