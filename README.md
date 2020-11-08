@@ -4,10 +4,11 @@ An app to search users on Github. It search by username, name and profile text. 
 
 Please visit it at https://githubuserfinder-123.netlify.app/
 
-## 👨‍💻 Tech stack
+## 🦄 Tech stack
 
 - React (functional components, Context, useReducer, Router)
 - Redux (dispatch)
+- REST API
 - CSS
 - Netlify
 - The branch "madeWithHooks" is written with functional components (no context, useReducer or redux)
